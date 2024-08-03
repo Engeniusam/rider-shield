@@ -36,7 +36,12 @@ function Hero() {
     <div className="section-container">
       <div className="hero-section">
         <div className="text-section">
-          <p className="text-headline">🏍️ Ride with confidence </p>
+          <p className="text-headline">
+            <span role="img" aria-label="party popper">
+              🏍️
+            </span>{" "}
+            Ride with confidence{" "}
+          </p>
           <h2 className="text-title">
             Protect your passion with our bike rider insurance
           </h2>

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 import "./App.css";
@@ -9,9 +9,25 @@ import Appointment from "./Pages/Appointment";
 
 function App() {
   const tawkMessengerRef = useRef();
+  const [isTawkLoaded, setIsTawkLoaded] = useState(false);
 
   const handleMinimize = () => {
-    tawkMessengerRef.current.minimize();
+    if (
+      isTawkLoaded &&
+      window.Tawk_API &&
+      typeof window.Tawk_API.minimize === "function"
+    ) {
+      window.Tawk_API.minimize();
+    } else {
+      console.error(
+        "Tawk_API is not loaded or minimize function is not available."
+      );
+    }
+  };
+
+  const onLoad = () => {
+    setIsTawkLoaded(true);
+    console.log("Tawk.to API loaded");
   };
 
   return (
@@ -29,6 +45,7 @@ function App() {
         propertyId="29f1ecd108939ae6b0aa6fa3ec29549589839b4e"
         widgetId="1i4ctovia"
         ref={tawkMessengerRef}
+        onLoad={onLoad}
       />
     </div>
   );
