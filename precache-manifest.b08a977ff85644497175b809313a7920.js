@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "592853ed1069d11141818efb1f930dd7",
+    "revision": "e72a46355aac775f9aec4481523fc97b",
     "url": "/rider-shield/index.html"
   },
   {
-    "revision": "8f8dd2585b8747ae88f1",
+    "revision": "87afd20f5dfc37698e9a",
     "url": "/rider-shield/static/css/2.5f8bea38.chunk.css"
   },
   {
-    "revision": "5f84d5b9320d2fcad032",
+    "revision": "c9ab14ddf0b94913d8a6",
     "url": "/rider-shield/static/css/main.34dc8016.chunk.css"
   },
   {
-    "revision": "8f8dd2585b8747ae88f1",
-    "url": "/rider-shield/static/js/2.65931977.chunk.js"
+    "revision": "87afd20f5dfc37698e9a",
+    "url": "/rider-shield/static/js/2.ff3a2b1a.chunk.js"
   },
   {
     "revision": "1ac23edd848720c87dd7eac90d67e14d",
-    "url": "/rider-shield/static/js/2.65931977.chunk.js.LICENSE.txt"
+    "url": "/rider-shield/static/js/2.ff3a2b1a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f84d5b9320d2fcad032",
-    "url": "/rider-shield/static/js/main.235feeff.chunk.js"
+    "revision": "c9ab14ddf0b94913d8a6",
+    "url": "/rider-shield/static/js/main.a6c7f5ed.chunk.js"
   },
   {
     "revision": "650008d562b273a1e1b2",

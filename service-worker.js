@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rider-shield/precache-manifest.e1431e189d4db4b558f9b205c269c5bd.js"
+  "/rider-shield/precache-manifest.b08a977ff85644497175b809313a7920.js"
 );
 
 self.addEventListener('message', (event) => {
