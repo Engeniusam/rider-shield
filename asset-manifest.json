@@ -1,20 +1,32 @@
 {
   "files": {
-    "main.css": "/rider-shield/static/css/main.86f2db47.css",
-    "main.js": "/rider-shield/static/js/main.943ab98b.js",
-    "static/media/bki-here-for-you.jpeg": "/rider-shield/static/media/bki-here-for-you.01e420bf055ca82092e4.jpeg",
-    "static/media/bike-riders1.jpeg": "/rider-shield/static/media/bike-riders1.322bf8efce228682890f.jpeg",
-    "static/media/bike-rider.jpeg": "/rider-shield/static/media/bike-rider.b83c1deda357771b85da.jpeg",
-    "static/media/partner3.png": "/rider-shield/static/media/partner3.775027a0ffa4e5c0b188.png",
-    "static/media/partner4.svg": "/rider-shield/static/media/partner4.d3f4dd9a9b09b3a22b80dbd8548ed5ae.svg",
-    "static/media/partner2.png": "/rider-shield/static/media/partner2.b397ae8fa126eeb85e67.png",
-    "static/media/partner1.png": "/rider-shield/static/media/partner1.bd198f823f991434e333.png",
+    "main.css": "/rider-shield/static/css/main.34dc8016.chunk.css",
+    "main.js": "/rider-shield/static/js/main.d01fa9f8.chunk.js",
+    "main.js.map": "/rider-shield/static/js/main.d01fa9f8.chunk.js.map",
+    "runtime-main.js": "/rider-shield/static/js/runtime-main.a1f1f419.js",
+    "runtime-main.js.map": "/rider-shield/static/js/runtime-main.a1f1f419.js.map",
+    "static/css/2.5f8bea38.chunk.css": "/rider-shield/static/css/2.5f8bea38.chunk.css",
+    "static/js/2.65931977.chunk.js": "/rider-shield/static/js/2.65931977.chunk.js",
+    "static/js/2.65931977.chunk.js.map": "/rider-shield/static/js/2.65931977.chunk.js.map",
     "index.html": "/rider-shield/index.html",
-    "main.86f2db47.css.map": "/rider-shield/static/css/main.86f2db47.css.map",
-    "main.943ab98b.js.map": "/rider-shield/static/js/main.943ab98b.js.map"
+    "precache-manifest.ccdfb6671f09cb800d595ac9d5dbb25d.js": "/rider-shield/precache-manifest.ccdfb6671f09cb800d595ac9d5dbb25d.js",
+    "service-worker.js": "/rider-shield/service-worker.js",
+    "static/css/2.5f8bea38.chunk.css.map": "/rider-shield/static/css/2.5f8bea38.chunk.css.map",
+    "static/css/main.34dc8016.chunk.css.map": "/rider-shield/static/css/main.34dc8016.chunk.css.map",
+    "static/js/2.65931977.chunk.js.LICENSE.txt": "/rider-shield/static/js/2.65931977.chunk.js.LICENSE.txt",
+    "static/media/bike-rider.jpeg": "/rider-shield/static/media/bike-rider.f9048895.jpeg",
+    "static/media/bike-riders1.jpeg": "/rider-shield/static/media/bike-riders1.6ac12761.jpeg",
+    "static/media/bki-here-for-you.jpeg": "/rider-shield/static/media/bki-here-for-you.3b24b570.jpeg",
+    "static/media/partner1.png": "/rider-shield/static/media/partner1.84c56112.png",
+    "static/media/partner2.png": "/rider-shield/static/media/partner2.301fa0e6.png",
+    "static/media/partner3.png": "/rider-shield/static/media/partner3.dfad0028.png",
+    "static/media/partner4.svg": "/rider-shield/static/media/partner4.23a2be97.svg"
   },
   "entrypoints": [
-    "static/css/main.86f2db47.css",
-    "static/js/main.943ab98b.js"
+    "static/js/runtime-main.a1f1f419.js",
+    "static/css/2.5f8bea38.chunk.css",
+    "static/js/2.65931977.chunk.js",
+    "static/css/main.34dc8016.chunk.css",
+    "static/js/main.d01fa9f8.chunk.js"
   ]
 }
