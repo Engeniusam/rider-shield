@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rider-shield/static/css/main.34dc8016.chunk.css",
-    "main.js": "/rider-shield/static/js/main.d01fa9f8.chunk.js",
-    "main.js.map": "/rider-shield/static/js/main.d01fa9f8.chunk.js.map",
+    "main.js": "/rider-shield/static/js/main.235feeff.chunk.js",
+    "main.js.map": "/rider-shield/static/js/main.235feeff.chunk.js.map",
     "runtime-main.js": "/rider-shield/static/js/runtime-main.a1f1f419.js",
     "runtime-main.js.map": "/rider-shield/static/js/runtime-main.a1f1f419.js.map",
     "static/css/2.5f8bea38.chunk.css": "/rider-shield/static/css/2.5f8bea38.chunk.css",
     "static/js/2.65931977.chunk.js": "/rider-shield/static/js/2.65931977.chunk.js",
     "static/js/2.65931977.chunk.js.map": "/rider-shield/static/js/2.65931977.chunk.js.map",
     "index.html": "/rider-shield/index.html",
-    "precache-manifest.ccdfb6671f09cb800d595ac9d5dbb25d.js": "/rider-shield/precache-manifest.ccdfb6671f09cb800d595ac9d5dbb25d.js",
+    "precache-manifest.e1431e189d4db4b558f9b205c269c5bd.js": "/rider-shield/precache-manifest.e1431e189d4db4b558f9b205c269c5bd.js",
     "service-worker.js": "/rider-shield/service-worker.js",
     "static/css/2.5f8bea38.chunk.css.map": "/rider-shield/static/css/2.5f8bea38.chunk.css.map",
     "static/css/main.34dc8016.chunk.css.map": "/rider-shield/static/css/main.34dc8016.chunk.css.map",
@@ -27,6 +27,6 @@
     "static/css/2.5f8bea38.chunk.css",
     "static/js/2.65931977.chunk.js",
     "static/css/main.34dc8016.chunk.css",
-    "static/js/main.d01fa9f8.chunk.js"
+    "static/js/main.235feeff.chunk.js"
   ]
 }
