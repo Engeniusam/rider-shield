@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Rider-Shield/static/css/main.86f2db47.css",
-    "main.js": "/Rider-Shield/static/js/main.f9c310f0.js",
-    "static/media/bki-here-for-you.jpeg": "/Rider-Shield/static/media/bki-here-for-you.01e420bf055ca82092e4.jpeg",
-    "static/media/bike-riders1.jpeg": "/Rider-Shield/static/media/bike-riders1.322bf8efce228682890f.jpeg",
-    "static/media/bike-rider.jpeg": "/Rider-Shield/static/media/bike-rider.b83c1deda357771b85da.jpeg",
-    "static/media/partner3.png": "/Rider-Shield/static/media/partner3.775027a0ffa4e5c0b188.png",
-    "static/media/partner4.svg": "/Rider-Shield/static/media/partner4.d3f4dd9a9b09b3a22b80dbd8548ed5ae.svg",
-    "static/media/partner2.png": "/Rider-Shield/static/media/partner2.b397ae8fa126eeb85e67.png",
-    "static/media/partner1.png": "/Rider-Shield/static/media/partner1.bd198f823f991434e333.png",
-    "index.html": "/Rider-Shield/index.html",
-    "main.86f2db47.css.map": "/Rider-Shield/static/css/main.86f2db47.css.map",
-    "main.f9c310f0.js.map": "/Rider-Shield/static/js/main.f9c310f0.js.map"
+    "main.css": "/rider-shield/static/css/main.86f2db47.css",
+    "main.js": "/rider-shield/static/js/main.943ab98b.js",
+    "static/media/bki-here-for-you.jpeg": "/rider-shield/static/media/bki-here-for-you.01e420bf055ca82092e4.jpeg",
+    "static/media/bike-riders1.jpeg": "/rider-shield/static/media/bike-riders1.322bf8efce228682890f.jpeg",
+    "static/media/bike-rider.jpeg": "/rider-shield/static/media/bike-rider.b83c1deda357771b85da.jpeg",
+    "static/media/partner3.png": "/rider-shield/static/media/partner3.775027a0ffa4e5c0b188.png",
+    "static/media/partner4.svg": "/rider-shield/static/media/partner4.d3f4dd9a9b09b3a22b80dbd8548ed5ae.svg",
+    "static/media/partner2.png": "/rider-shield/static/media/partner2.b397ae8fa126eeb85e67.png",
+    "static/media/partner1.png": "/rider-shield/static/media/partner1.bd198f823f991434e333.png",
+    "index.html": "/rider-shield/index.html",
+    "main.86f2db47.css.map": "/rider-shield/static/css/main.86f2db47.css.map",
+    "main.943ab98b.js.map": "/rider-shield/static/js/main.943ab98b.js.map"
   },
   "entrypoints": [
     "static/css/main.86f2db47.css",
-    "static/js/main.f9c310f0.js"
+    "static/js/main.943ab98b.js"
   ]
 }
