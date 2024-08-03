@@ -1,6 +1,5 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 import "./App.css";
 import Home from "./Pages/Home";
 import Legal from "./Pages/Legal";
@@ -8,7 +7,6 @@ import NotFound from "./Pages/NotFound";
 import Appointment from "./Pages/Appointment";
 
 function App() {
-  const tawkMessengerRef = useRef();
   const [isTawkLoaded, setIsTawkLoaded] = useState(false);
 
   const handleMinimize = () => {
@@ -25,10 +23,16 @@ function App() {
     }
   };
 
-  const onLoad = () => {
-    setIsTawkLoaded(true);
-    console.log("Tawk.to API loaded");
-  };
+  // Check if Tawk.to API is loaded
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      if (window.Tawk_API) {
+        setIsTawkLoaded(true);
+        clearInterval(interval);
+      }
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="App">
@@ -41,12 +45,6 @@ function App() {
         </Routes>
       </Router>
       <button onClick={handleMinimize}>Minimize the Chat</button>
-      <TawkMessengerReact
-        propertyId="29f1ecd108939ae6b0aa6fa3ec29549589839b4e"
-        widgetId="1i4ctovia"
-        ref={tawkMessengerRef}
-        onLoad={onLoad}
-      />
     </div>
   );
 }
