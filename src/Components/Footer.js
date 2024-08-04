@@ -70,7 +70,7 @@ function Footer() {
           <ul className="ft-list-items">
             <li>
               <a href="mailto:info.ridershield@gmail.com">
-                info.ridershield@gmail.com
+                ridershield.info@gmail.com
               </a>
             </li>
             <li>

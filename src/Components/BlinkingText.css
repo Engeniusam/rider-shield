@@ -1,0 +1,19 @@
+/* BlinkingText.css */
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .blinking-text {
+    animation: blink 10s infinite; /* Changed duration to 2 seconds */
+    color: red; /* Optional: Set the text color */
+    font-weight: bold;
+    font-size: 21px;/* Optional: Make the text bold */
+  }

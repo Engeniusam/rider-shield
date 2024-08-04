@@ -3,6 +3,7 @@ import Doctor from "../Assets/bike-rider.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
+import Marquee from "react-fast-marquee";
 import "../Styles/Hero.css";
 
 function Hero() {
@@ -34,6 +35,7 @@ function Hero() {
 
   return (
     <div className="section-container">
+      <Marquee style={{ fontStyle: "italic" }}>Ride On, Worry Less</Marquee>
       <div className="hero-section">
         <div className="text-section">
           <p className="text-headline">

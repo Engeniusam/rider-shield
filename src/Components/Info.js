@@ -2,6 +2,7 @@ import React from "react";
 import InformationCard from "./InformationCard";
 import { faShieldAlt, faCar, faRoad } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Info.css";
+import BlinkingText from "./BlinkingText";
 
 function Info() {
   return (
@@ -38,6 +39,7 @@ function Info() {
           icon={faRoad}
         />
       </div>
+      <BlinkingText />
     </div>
   );
 }

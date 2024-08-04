@@ -53,6 +53,7 @@ function Partners() {
           rating="4.8"
         />
       </div>
+      <br />
     </div>
   );
 }

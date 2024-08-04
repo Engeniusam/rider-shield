@@ -18,6 +18,7 @@ function DoctorCard(props) {
         />
         {props.rating}
       </p>
+      <br />
     </div>
   );
 }
