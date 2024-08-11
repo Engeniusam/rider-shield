@@ -1,0 +1,26 @@
+{
+    "name": "ridershield",
+  "short_name": "ridershield",
+  "theme_color": "#2ca0fd",
+  "background_color": "#5de05d",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+        "src": "maskable.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },{
+      "src": "logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
