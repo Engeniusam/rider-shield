@@ -1,31 +1,62 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  // faCommentDots,
-  faBars,
-  faXmark,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Navbar.css";
 import { Link } from "react-router-dom";
-// import { toast } from "react-toastify";
+import introJs from "intro.js";
+import "intro.js/introjs.css";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
-  // const [isButtonDisabled, setIsButtonDisabled] = useState(false);
 
   const openNav = () => {
     setNav(!nav);
   };
 
-  // const handleChatBtnClick = () => {
-  //   if (!isButtonDisabled) {
-  //     toast.info("Experiencing high traffic, Please wait a moment.", {
-  //       position: toast.POSITION.TOP_CENTER,
-  //       onOpen: () => setIsButtonDisabled(true),
-  //       onClose: () => setIsButtonDisabled(false),
-  //     });
-  //   }
-  // };
+  const startTour = () => {
+    introJs()
+      .setOptions({
+        steps: [
+          {
+            element: ".navbar-title",
+            intro: "Welcome to RiderShield.",
+          },
+          {
+            element: ".home",
+            intro: "Ride with Confidence with us.",
+          },
+          {
+            element: ".about",
+            intro: "Find more about us here.",
+          },
+          {
+            element: ".services",
+            intro: "See the services we offer here.",
+          },
+          {
+            element: ".reviews",
+            intro: "What our customers say about us.",
+          },
+          {
+            element: ".partners",
+            intro: "Who we partner with.",
+          },
+          {
+            element: ".text-appointment-btn",
+            intro: "Apply for Insurance here.",
+          },
+          // {
+          //   element: ".tawk-chat-bubble",
+          //   intro: "Chat with our support team here.",
+          // },
+        ],
+      })
+      .start();
+  };
+
+  useEffect(() => {
+    startTour();
+  }, []);
 
   return (
     <div className="navbar-section">
@@ -38,40 +69,31 @@ function Navbar() {
       {/* Desktop */}
       <ul className="navbar-items">
         <li>
-          <Link to="/" className="navbar-links">
+          <Link to="/" className="navbar-links home">
             Home
           </Link>
         </li>
         <li>
-          <a href="#about" className="navbar-links">
+          <a href="#about" className="navbar-links about">
             About
           </a>
         </li>
         <li>
-          <a href="#services" className="navbar-links">
+          <a href="#services" className="navbar-links services">
             Services
           </a>
         </li>
         <li>
-          <a href="#reviews" className="navbar-links">
+          <a href="#reviews" className="navbar-links reviews">
             Reviews
           </a>
         </li>
         <li>
-          <a href="#doctors" className="navbar-links">
+          <a href="#doctors" className="navbar-links partners">
             Partners
           </a>
         </li>
       </ul>
-
-      {/* <button
-        className="navbar-btn"
-        type="button"
-        disabled={isButtonDisabled}
-        onClick={handleChatBtnClick}
-      >
-        <FontAwesomeIcon icon={faCommentDots} /> Live Chat
-      </button> */}
 
       {/* Mobile */}
       <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
