@@ -26,7 +26,7 @@
     font-size: 40px;
     font-weight: bold;
 }
-.text-descritpion {
+.text-description {
     width: 475px;
     margin: 32px 0;
     color: rgb(77, 75, 75);
@@ -118,7 +118,7 @@
         width: 100%;
         padding: 0;
     }
-    .text-title, .text-descritpion {
+    .text-title, .text-description {
         width: 100%;
     }
 }
@@ -129,7 +129,7 @@
     .text-title {
         font-size: 28px;
     }
-    .text-descritpion {
+    .text-description {
         font-size: 16px;
     }
     .text-appointment-btn {
