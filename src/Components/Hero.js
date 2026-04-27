@@ -47,7 +47,7 @@ function Hero() {
           <h2 className="text-title">
             Protect your passion with our bike rider insurance
           </h2>
-          <p className="text-descritpion">
+          <p className="text-description">
             Get comprehensive coverage tailored for bike enthusiasts. Whether
             you're a daily commuter or a weekend warrior, our insurance keeps
             you protected on every ride. Enjoy the journey with peace of mind.
